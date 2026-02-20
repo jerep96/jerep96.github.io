@@ -37,6 +37,9 @@ params:
     - name: github
       url: "https://github.com/jerep96"
 
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jeremiaspal/"
+
   profileMode:
     enabled: false
 
