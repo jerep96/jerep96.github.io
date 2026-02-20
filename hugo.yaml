@@ -1,6 +1,6 @@
 baseURL: "https://jerep96.github.io/"
 languageCode: en-us
-title: "My CTF Writeups"
+title: "Jeremias Palacios"
 theme: PaperMod
 
 paginate: 10
