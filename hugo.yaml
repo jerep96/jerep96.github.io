@@ -1,0 +1,71 @@
+baseURL: "https://jerep96.github.io/"
+languageCode: en-us
+title: "My CTF Writeups"
+theme: PaperMod
+
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "My CTF Writeups"
+  description: "HTB & CTF writeups"
+  author: "Jeremias Palacios"
+
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+
+  homeInfoParams:
+    Title: "👾 CTF Writeups"
+    Content: >
+      Writeups de HackTheBox, CTFs y challenges de seguridad.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/jerep96"
+
+  profileMode:
+    enabled: false
+
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+menu:
+  main:
+    - identifier: writeups
+      name: Writeups
+      url: /writeups/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
